@@ -1,3 +1,4 @@
 [submodule "output"]
 	path = output
 	url = https://github.com/bosbraves/bosbraves.github.io.git
+	ignore = all
