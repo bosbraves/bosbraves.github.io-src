@@ -37,5 +37,5 @@ plt.hist([10,5,7,10,1,1,2,3,5])
 
 
 
-![png](firstpost/firstpost_2_1.png)
+![png](images/firstpost_2_1.png)
 
