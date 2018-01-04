@@ -8,7 +8,7 @@ AUTHOR = 'Ryan Mills'
 SITENAME = "Ryan's Blog"
 SITEURL = ''
 
-PATH = '/content'
+PATH = 'content'
 THEME = 'themes/minimalX'
 
 TIMEZONE = 'America/New_York'
