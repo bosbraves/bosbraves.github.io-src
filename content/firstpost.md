@@ -2,6 +2,7 @@ Title: First Post
 Date: 2018-01-03 10:30
 Category: python
 Author: Ryan Mills
+HeaderImage: /images/category.png
 
 
 ```python
