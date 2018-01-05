@@ -12,17 +12,22 @@ PATH = 'content'
 THEME = 'themes/minimalX'
 
 TIMEZONE = 'America/New_York'
-
-DEFAULT_LANG = 'English'
-
+LOCALE = 'usa'
+DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
+FEED_ALL_RSS = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# Other options
+STATIC_PATHS = ['images', 'authors']
+
+IGNORE_FILES = ['.ipynb_checkpoints']
 
 MARKDOWN = {
     'extension_configs': {
@@ -33,9 +38,6 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
-STATIC_PATHS = ['images', 'authors']
-
-IGNORE_FILES = ['.ipynb_checkpoints']
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -46,6 +48,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('github', 'https://github.com/bosbraves'),
           ('linkedin', 'https://www.linkedin.com/in/ryancmills'),)
+
 SHARE_BUTTONS = ('github', 'linkedin', 'twitter', 'mail')
 
 # Pagination after more than 4 articles
@@ -61,6 +64,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 
 # Plugins
 TAG_CLOUD = True
+# Tagcloud Settings
 TAG_CLOUD_STEPS = 5
 TAG_CLOUD_MAX_ITEMS = 50
 TAG_CLOUD_BADGE = True
@@ -76,5 +80,5 @@ AUTHOR_PAGE_PATH = 'authors'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-
+#JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
