@@ -77,3 +77,4 @@ AUTHOR_PAGE_PATH = 'authors'
 RELATIVE_URLS = True
 
 
+
