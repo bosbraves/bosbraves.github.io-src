@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 LOAD_CONTENT_CACHE = False
 
 AUTHOR = 'Ryan Mills'
-SITENAME = "Ryan's Blog"
+SITENAME = "bosbraves.github.io"
 SITEURL = ''
 
 PATH = 'content'
