@@ -72,7 +72,7 @@ TAG_CLOUD_SORTING = 'size'
 
 # Plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["tag_cloud"]
+PLUGINS = ["tag_cloud", "i18n_subsites"]
 
 # Author Pages
 AUTHOR_PAGE_PATH = 'authors'
@@ -80,5 +80,5 @@ AUTHOR_PAGE_PATH = 'authors'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
